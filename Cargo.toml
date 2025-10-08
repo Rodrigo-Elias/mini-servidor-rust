@@ -1,0 +1,9 @@
+[package]
+name = "static_server_example"
+version = "0.1.0"
+edition = "2024"
+authors = ["Rodd <roddselias@gmail.com>"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mime_guess = "2"
