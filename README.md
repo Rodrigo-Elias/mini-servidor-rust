@@ -52,11 +52,4 @@ Após iniciar o servidor:
 | `handle_connection` | Lida com o parsing da requisição HTTP, extraindo o caminho. |
 | `serve_file` | Lógica de roteamento (`/` para `index.html`), leitura do arquivo e construção da resposta HTTP (200 OK ou 404 Not Found). |
 
----
 
-Feito isso, o seu próximo e último passo no terminal é:
-
-```bash
-git add README.md
-git commit -m "Adiciona README do projeto com instruções e destaques tecnicos"
-git push
